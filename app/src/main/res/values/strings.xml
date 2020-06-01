@@ -1,0 +1,389 @@
+<resources>
+    <string name="app_name">Happy O\' Clock</string>
+    <string name="title_activity_erwtimatologio">Erwtimatologio</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="kalosIr">Καλωσήρθατε στην εφαρμογή μου.</string>
+    <string name="welcomeMess">Η παρακάτω εφαρμογή πραγματοποιείται στα πλαίσια του μαθήματος Διαδικτυακές Υπηρεσίες Προστιθέμενης Αξίας. \n Το όνομα της εφαρμογής είναι \'Happy O\' Clock\' \n Σκοπός της είναι να βοηθήσει το άτομο να αξιοποιήσει τον χρόνο του προσφέροντας του ίδεες για διάφορες δραστηριότες που μπορεί κάνει κατά την διάρκεια της ημέρας. </string>
+    <string name="erwtiseisIntro">Παρακάτω ακολουθεί ένα ερωτηματολόγια με σύντομες ερωτήσεις για τα ενδιαφέροντα του ατόμου που την χρησιμοποιεί.</string>
+    <string name="PataNext">Πάτα το κουμπί για να συνεχίσεις!!</string>
+    <string name="custom_centered_title">Custom Centered Title</string>
+    <string name="next">next</string>
+    <string name="Erwtimatologio">Ερωτηματολόγιο</string>
+    <string name="title_activity_weekly_shedule">Week Schedule Tips</string>
+    <string-array name="Main">
+        <item>Πρόγραμμα</item>
+        <item>Μαθήματα</item>
+        <item>Ερωτηματολόγιο</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>Προτεινόμενες Δραστηριότητες</item>
+        <item>Μαθήματα Σχολής</item>
+        <item>Προσωπικά ενδιαφέροντα</item>
+    </string-array>
+
+    <string-array name="Week">
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+        <item>Κυριακή</item>
+    </string-array>
+
+    <string-array name="Δευτέρα">
+        <item>Γυμναστική</item>
+        <item>Διάβασε ένα βιβλίο</item>
+        <item>Ξεκουράσου</item>
+        <item>Κάτσε με την Οικογένεια σου</item>
+        <item>Δες μια ταινία</item>
+    </string-array>
+
+    <string-array name="Τρίτη">
+        <item>Γυμναστική</item>
+        <item>Άκουσε μουσική</item>
+        <item>Ξεκουράσου</item>
+        <item>Παίξε ένα επιτραπέζιο με την Οικογένεια σου</item>
+        <item>Δες μια ταινία</item>
+    </string-array>
+
+    <string-array name="Τετάρτη">
+        <item>Γυμναστική</item>
+        <item>Ασχολήσου με τον κήπο</item>
+        <item>Ξεκουράσου</item>
+        <item>Βγάλε το κατοικίδιο σου βόλτα</item>
+        <item>Πάιξε με την οικογένεια σου</item>
+    </string-array>
+
+    <string-array name="Πέμπτη">
+        <item>Γυμναστική</item>
+        <item>Ζωγράφισε</item>
+        <item>Ξεκουράσου</item>
+        <item>Ασχολήσου με το μουσικό όργανο σου</item>
+        <item>Δες μια ταινία</item>
+    </string-array>
+
+    <string-array name="Παρασκευή">
+        <item>Γυμναστική</item>
+        <item>Άκουσε μουσική</item>
+        <item>Ξεκουράσου</item>
+        <item>Κάτσε με την Οικογένεια σου</item>
+        <item>Δες μια ταινία</item>
+    </string-array>
+
+    <string-array name="Σάββατο">
+        <item>Γυμναστική</item>
+        <item>Διάβασε ένα βιβλίο</item>
+        <item>Ξεκουράσου</item>
+        <item>Κάτσε με την Οικογένεια σου</item>
+        <item>Δες μια ταινία</item>
+    </string-array>
+
+    <string-array name="Κυριακή">
+        <item>Γυμναστική</item>
+        <item>Διάβασε ένα βιβλίο</item>
+        <item>Ξεκουράσου</item>
+        <item>Κάτσε με την Οικογένεια σου</item>
+        <item>Δες μια ταινία</item>
+    </string-array>
+
+    <string-array name="time1">
+        <item>10:00πμ - 11:00πμ</item>
+        <item>12:00μμ - 14:00μμ</item>
+        <item>14:30μμ - 17:30μμ</item>
+        <item>18:00μμ - 20:00μμ</item>
+        <item>20:30μμ - 23:00μμ</item>
+    </string-array>
+
+    <string-array name="time2">
+        <item>10:00πμ - 11:00πμ</item>
+        <item>12:00μμ - 14:00μμ</item>
+        <item>14:30μμ - 17:30μμ</item>
+        <item>18:00μμ - 20:00μμ</item>
+        <item>20:30μμ - 23:00μμ</item>
+    </string-array>
+
+    <string-array name="time3">
+        <item>10:00πμ - 11:00πμ</item>
+        <item>12:00μμ - 14:00μμ</item>
+        <item>14:30μμ - 17:30μμ</item>
+        <item>18:00μμ - 20:00μμ</item>
+        <item>20:30μμ - 23:00μμ</item>
+    </string-array>
+
+    <string-array name="time4">
+        <item>10:00πμ - 11:00πμ</item>
+        <item>12:00μμ - 14:00μμ</item>
+        <item>14:30μμ - 17:30μμ</item>
+        <item>18:00μμ - 20:00μμ</item>
+        <item>20:30μμ - 23:00μμ</item>
+    </string-array>
+
+    <string-array name="time5">
+        <item>8:55AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 12:10PM</item>
+        <item>12:10PM - 1:05PM</item>
+        <item>1:05PM - 2:00PM</item>
+        <item>2:00PM - 3:50PM</item>
+    </string-array>
+
+    <string-array name="time6">
+        <item>10:00πμ - 11:00πμ</item>
+        <item>12:00μμ - 14:00μμ</item>
+        <item>14:30μμ - 17:30μμ</item>
+        <item>18:00μμ - 20:00μμ</item>
+        <item>20:30μμ - 23:00μμ</item>
+    </string-array>
+
+    <string-array name="time7">
+        <item>10:00πμ - 11:00πμ</item>
+        <item>12:00μμ - 14:00μμ</item>
+        <item>14:30μμ - 17:30μμ</item>
+        <item>18:00μμ - 20:00μμ</item>
+        <item>20:30μμ - 23:00μμ</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+
+    <string-array name="Erwtiseis">
+        <item>Είσαι εργαζόμενος?  Αν ναι συμπλήρωσε τις ώρες που ξεκινάς και τελειώνεις.</item>
+        <item>Σου αρέσει να ζωγραφίζεις? </item>
+        <item>Σου αρέσει να διαβάζεις βιβλία?</item>
+        <item>Ασχολήσε με κάποιο άθλημα?</item>
+        <item>Σου αρέσει να παίζεις επιτραπέζια παιχνίδια?</item>
+        <item>Ασχολήσαι με κάποιο μουσικό όργανο?</item>
+        <item>Έχεις κατοικίδιο?</item>
+        <item>Ασχολήσαι με την κυπουρική?</item>
+        <item>Παίζεις βιντεοπαιχνίδια ?</item>
+    </string-array>
+
+    <string-array name="Examina">
+        <item>Εξάμηνο Α</item>
+        <item>Εξάμηνο Β</item>
+        <item>Εξάμηνο Γ</item>
+        <item>Εξάμηνο Δ</item>
+        <item>Εξάμηνο Ε</item>
+        <item>Εξάμηνο ΣΤ</item>
+        <item>Εξάμηνο Ζ</item>
+        <item>Εξάμηνο Η</item>
+        <item>Εξάμηνο Θ</item>
+    </string-array>
+
+    <string-array name="Εξάμηνο1">
+        <item>ΜΑΘΗΜΑΤΙΚΑ Ι</item>
+        <item>ΔΟΜΗΜΕΝΟΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ</item>
+        <item>ΕΙΣΑΓΩΓΗ ΣΤΗΝ ΕΠΙΣΤΗΜΗ ΤΩΝ ΥΠΟΛΟΓΙΣΤΏΝ</item>
+        <item>ΗΛΕΚΤΡΟΝΙΚΗ ΦΥΣΙΚΗ</item>
+        <item>ΚΥΚΛΩΜΑΤΑ ΣΥΝΕΧΟΥΣ ΡΕΥΜΑΤΟΣ </item>
+    </string-array>
+
+
+    <string-array name="Εξάμηνο2">
+        <item>ΜΑΘΗΜΑΤΙΚΑ ΙΙ</item>
+        <item>ΜΕΤΡΗΣΕΙΣ ΚΑΙ ΚΥΚΛΩΜΑΤΑ ΕΝΑΛΛΑΣΣΟΜΕΝΟΥ ΡΕΥΜΑΤΟΣ (AC)</item>
+        <item>ΤΕΧΝΙΚΗ ΣΥΓΓΡΑΦΗ, ΠΑΡΟΥΣΙΑΣΗ ΚΑΙ ΟΡΟΛΟΓΙΑ ΞΕΝΗΣ ΓΛΩΣΣΑΣ</item>
+        <item>ΣΧΕΔΙΑΣΗ ΨΗΦΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΑΝΤΙΚΕΙΜΕΝΟΣΤΡΕΦΗΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ</item>
+    </string-array>
+
+    <string-array name="Εξάμηνο3">
+        <item>ΘΕΩΡΙΑ ΠΙΘΑΝΟΤΗΤΩΝ ΚΑΙ ΣΤΑΤΙΣΤΙΚΗ</item>
+        <item>ΜΑΘΗΜΑΤΙΚΑ ΙΙΙ</item>
+        <item>ΕΠΕΞΕΡΓΑΣΙΑ ΣΗΜΑΤΟΣ</item>
+        <item>ΟΡΓΑΝΩΣΗ ΚΑΙ ΑΡΧΙΤΕΚΤΟΝΙΚΗ ΥΠΟΛΟΓΙΣΤΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΔΟΜΕΣ ΔΕΔΟΜΕΝΩΝ ΚΑΙ ΑΝΑΛΥΣΗ ΑΛΓΟΡΙΘΜΩΝ</item>
+    </string-array>
+
+
+    <string-array name="Εξάμηνο4">
+        <item>ΣΥΣΤΗΜΑΤΑ ΔΙΑΧΕΙΡΙΣΗΣ ΒΑΣΕΩΝ ΔΕΔΟΜΕΝΩΝ</item>
+        <item>ΤΗΛΕΠΙΚΟΙΝΩΝΙΑΚΑ ΣΥΣΤΗΜΑΤΑ</item>
+        <item>ΕΙΣΑΓΩΓΗ ΣΤΑ ΛΕΙΤΟΥΡΓΙΚΑ ΣΥΣΤΗΜΑΤΑ</item>
+        <item>ΗΛΕΚΤΡΟΝΙΚΑ ΚΥΚΛΩΜΑΤΑ</item>
+        <item>ΓΛΩΣΣΕΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΕΣ ΙΣΤΟΥ</item>
+    </string-array>
+
+    <string-array name="Εξάμηνο5">
+        <item>ΑΣΥΡΜΑΤΕΣ ΕΠΙΚΟΙΝΩΝΙΕΣ</item>
+        <item>ΜΙΚΡΟΕΛΕΓΚΤΕΣ</item>
+        <item>ΣΧΕΔΙΑΣΗ ΛΕΙΤΟΥΡΓΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΗΛΕΚΤΡΟΝΙΚΕΣ ΔΙΑΤΑΞΕΙΣ</item>
+        <item>ΑΛΛΗΛΕΠΙΔΡΑΣΗ ΑΝΘΡΩΠΟΥ-ΜΗΧΑΝΗΣ</item>
+    </string-array>
+
+    <string-array name="Εξάμηνο6">
+        <item>ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ</item>
+        <item>ΕΝΣΩΜΑΤΩΜΕΝΑ ΣΥΣΤΗΜΑΤΑ</item>
+        <item>ΣΥΝΘΕΣΗ ΗΛΕΚΤΡΟΝΙΚΩΝ ΚΥΚΛΩΜΑΤΩΝ</item>
+        <item>ΚΒΑΝΤΙΚΗ ΥΠΟΛΟΓΙΣΤΙΚΗ</item>
+        <item>ΜΕΘΟΔΟΛΟΓΙΕΣ ΣΧΕΔΙΑΣΜΟΥ ΜΙΚΡΟΗΛΕΚΤΡΟΝΙΚΩΝ ΚΥΚΛΩΜΑΤΩΝ</item>
+        <item>ΑΡΙΘΜΗΤΙΚΕΣ ΜΕΔΟΘΟΙ</item>
+        <item>ΠΡΟΗΓΜΕΝΑ ΘΕΜΑΤΑ ΑΛΛΗΛΕΠΙΔΡΑΣΗΣ (ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΚΙΝΗΤΩΝ ΣΥΣΚΕΥΩΝ)</item>
+        <item>ΔΙΟΙΚΗΣΗ ΕΡΓΩΝ</item>
+        <item>ΜΙΚΡΟΚΥΜΑΤΚΗ ΤΕΧΝΟΛΟΓΙΑ ΚΑΙ ΤΗΛΕΠΙΣΚΟΠΗΣΗ</item>
+        <item>ΟΠΤΟΗΛΕΚΤΡΟΝΙΚΗ ΚΑΙ ΟΠΤΙΚΕΣ ΕΠΙΚΟΙΝΩΝΙΕΣ</item>
+        <item>ΣΥΣΤΗΜΑΤΑ ΜΕΣΩΝ ΜΑΖΙΚΗΣ ΕΠΙΚΟΙΝΩΝΙΑΣ</item>
+    </string-array>
+
+    <string-array name="Εξάμηνο7">
+        <item>ΔΙΚΤΥΑ ΥΠΟΛΟΓΙΣΤΩΝ</item>
+        <item>ΗΛΕΚΤΡΟΝΙΚΑ ΙΣΧΥΟΣ</item>
+        <item>ΣΥΣΤΗΜΑΤΑ ΑΥΤΟΜΑΤΟΥ ΕΛΕΓΧΟΥ</item>
+        <item>ΑΙΣΘΗΤΗΡΙΑ ΚΑΙ ΕΠΕΞΕΡΓΑΣΙΑ ΜΕΤΡΗΣΕΩΝ</item>
+        <item>ΚΠΡΟΓΡΑΜΜΑΤΙΖΟΜΕΝΟΙ ΛΟΓΙΚΟΙ ΕΛΕΓΚΤΕΣ </item>
+        <item>ΣΧΕΔΙΑΣΗ ΕΠΑΝΑΠΡΟΣΔΙΟΡΙΖΟΜΕΝΩΝ ΨΗΦΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ (FPGA)</item>
+        <item>ΕΙΣΑΓΩΓΗ ΣΤΗΝ ΑΝΑΛΥΤΙΚΗ ΤΩΝ ΔΕΔΟΜΕΝΩΝ</item>
+        <item>ΜΗΧΑΝΙΚΗ ΛΟΓΙΣΜΙΚΟΥ</item>
+        <item>ΤΕΧΝΟΛΟΓΙΑ ΒΑΣΕΩΝ ΔΕΔΟΜΕΝΩΝ</item>
+        <item>ΠΡΟΗΓΜΕΝΕΣ ΑΡΧΙΤΕΚΤΟΝΙΚΕΣ ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΠΑΡΑΛΛΗΛΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΤΕΧΝΟΛΟΓΙΕΣ ΗΧΟΥ ΚΑΙ ΕΙΚΟΝΑΣ</item>
+    </string-array>
+
+    <string-array name="Εξάμηνο8">
+        <item>ΑΣΦΑΛΕΙΑ ΠΛΗΡΟΦΟΡΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΑΡΧΕΣ ΚΑΙ ΜΕΘΟΔΟΙ ΜΗΧΑΝΙΚΗΣ ΜΑΘΗΣΗΣ</item>
+        <item>ΔΙΑΔΙΚΤΥΟ ΤΩΝ ΠΡΑΓΜΑΤΩΝ</item>
+        <item>ΕΦΑΡΜΟΓΕΣ ΣΥΣΤΗΜΑΤΩΝ ΑΥΤΟΜΑΤΟΥ ΕΛΕΓΧΟΥ</item>
+        <item>ΜΕΤΑΤΡΟΠΕΙΣ ΙΣΧΥΟΣ </item>
+        <item>ΜΙΚΡΟΗΛΕΚΤΡΟΝΙΚΗ </item>
+        <item>ΕΦΑΡΜΟΓΕΣ ΣΥΣΤΗΜΑΤΩΝ ΙΣΧΥΟΣ ΚΑΙ ΑΠΕ </item>
+        <item>ΗΛΕΚΤΡΟΚΙΝΗΣΗ ΚΑΙ ΕΥΦΥΗ ΔΙΚΤΥΑ </item>
+        <item>ΟΡΓΑΝΩΣΗ ΔΕΔΟΜΕΝΩΝ ΚΑΙ ΕΞΟΡΥΞΗ ΠΛΗΡΟΦΟΡΙΑΣ </item>
+        <item>ΔΙΑΔΙΚΤΥΑΚΕΣ ΥΠΗΡΕΣΙΕΣ ΠΡΟΣΤΙΘΕΜΕΝΗΣ ΑΞΙΑΣ </item>
+        <item>ΑΣΥΡΜΑΤΑ ΔΙΚΤΥΑ </item>
+        <item>ΕΙΔΙΚΑ ΘΕΜΑΤΑ ΔΙΚΤΥΩΝ (CCNA) 1 </item>
+        <item>ΠΡΟΗΓΜΕΝΑ ΘΕΜΑΤΑ ΔΙΚΤΥΩΝ </item>
+        <item>ΣΥΣΤΗΜΑΤΑ ΚΙΝΗΤΩΝ ΕΠΙΚΟΙΝΩΝΙΩΝ </item>
+        <item>ΡΑΔΙΟΤΗΛΕΟΠΤΙΚΗ ΠΑΡΑΓΩΓΗ </item>
+    </string-array>
+
+    <string-array name="Εξάμηνο9">
+        <item>ΔΟΡΥΦΟΡΙΚΕΣ ΕΠΙΚΟΙΝΩΝΙΕΣ</item>
+        <item>ΕΦΑΡΜΟΓΕΣ ΕΝΣΩΜΑΤΩΜΕΝΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΡΟΜΠΟΤΙΚΗ</item>
+        <item>ΑΠΕ ΚΑΙ ΕΥΦΥΗ ΗΛΕΚΤΡΙΚΑ ΔΙΚΤΥΑ</item>
+        <item>ΑΠΤΙΚΕΣ ΔΙΕΠΑΦΕΣ</item>
+        <item>ΒΙΟΪΑΤΡΙΚΗ ΤΕΧΝΟΛΟΓΙΑ</item>
+        <item>ΣΥΣΤΗΜΑΤΑ ΜΕΤΡΗΣΕΩΝ ΥΠΟΒΟΗΘΟΥΜΕΝΩΝ ΑΠΌ Η/Υ</item>
+        <item>ΑΝΑΠΤΥΞΗ ΔΙΑΔΙΚΤΥΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ ΚΑΙ ΕΦΑΡΜΟΓΩΝ</item>
+        <item>ΕΠΙΧΕΙΡΗΣΙΑΚΗ ΕΡΕΥΝΑ</item>
+        <item>ΑΝΑΚΤΗΣΗ ΠΛΗΡΟΦΟΡΙΩΝ -ΜΗΧΑΝΕΣ ΑΝΑΖΗΤΗΣΗΣ</item>
+        <item>ΔΙΑΧΕΙΡΙΣΗ ΣΥΣΤΗΜΑΤΟΣ ΚΑΙ ΥΠΗΡΕΣΙΩΝ DBMS</item>
+        <item>ΕΥΦΥΗ ΣΥΣΤΗΜΑΤΑ</item>
+        <item>ΠΡΟΗΓΜΕΝΑ ΘΕΜΑΤΑ ΤΕΧΝΗΤΗΣ ΝΟΗΜΟΣΥΝΗΣ</item>
+        <item>ΠΡΟΗΓΜΕΝΗ ΜΗΧΑΝΙΚΗ ΜΑΘΗΣΗ</item>
+        <item>ΑΝΑΠΤΥΞΗ ΟΛΟΚΛΗΡΩΜΕΝΩΝ ΠΛΗΡΟΦΟΡΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ</item>
+        <item>ΚΑΤΑΝΕΜΗΜΕΝΑ ΣΥΣΤΗΜΑΤΑ</item>
+        <item>ΣΗΜΑΣΙΟΛΟΓΙΚΟΣ ΙΣΤΟΣ</item>
+        <item>ΓΡΑΦΙΚΑ ΥΠΟΛΟΓΙΣΤΩΝ</item>
+        <item>ΑΣΦΑΛΕΙΑ ΔΙΚΤΥΩΝ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΩΝ</item>
+        <item>ΔΙΚΤΥΩΣΗ ΚΑΘΟΡΙΣΜΕΝΗ ΑΠΟ ΛΟΓΙΣΜΙΚΟ</item>
+        <item>ΕΙΔΙΚΑ ΘΕΜΑΤΑ ΔΙΚΤΥΩΝ (CCNA) 2</item>
+        <item>ΤΕΧΝΟΛΟΓΙΑ ΠΟΛΥΜΕΣΩΝ</item>
+        <item>ΠΡΑΚΤΙΚΗ ΑΣΚΗΣΗ</item>
+
+    </string-array>
+
+    <string-array name="Εξάμηνο10">
+        <item>ΔΙΠΛΩΜΑΤΙΚΗ ΕΡΓΑΣΙΑ</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.xdiam0nd.happyoclock.Erwtimatologio">
+    <!--tools:showIn="@layout/activity_erwtimatologio"-->
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="255dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Είσαι εργαζόμενος?  Αν ναι συμπλήρωσε τις ώρες που ξεκινάς και τελειώνεις."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/arxiDoulias"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/telosDouleias"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+            <CheckBox
+                android:id="@+id/doyleia"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Zwgrafiki"
+                android:layout_width="255dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Σου αρέσει να ζωγραφίζεις? "
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ZwgrafikiCheck"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Diabasma"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_width="255dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Σου αρέσει να διαβάζεις βιβλία? " />
+
+            <CheckBox
+                android:id="@+id/DiabasmaCheck"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/athlisi"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_width="255dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ασχολήσε με κάποιο άθλημα? " />
+
+        <CheckBox
+            android:id="@+id/athlisiCheck"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/paixnidia"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_width="255dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Σου αρέσει να παίζεις παιχνίδια? " />
+
+            <CheckBox
+                android:id="@+id/paixnidiaCheck"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telos" />
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/mousiki"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_width="255dp"-->
+            <!--android:layout_height="64dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Ασχολήσε με κάποιο μουσικό όργανο? " />-->
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/mousikiCheck"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.5" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/katoikidio"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_width="255dp"-->
+            <!--android:layout_height="64dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Έχεις κατοικίδιο? " />-->
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/katikoidioCheck"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.5" />-->
+
+    <!--</LinearLayout>-->
+</android.support.v4.widget.NestedScrollView>
